@@ -8,12 +8,10 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.grid}>
-        <span
-          className={styles.card}
-        >
-          <Link href="/teams/">
+        <span className={styles.card}>
+          <Link href="/people/">
             <h2 className={inter.className}>
-              Teams <span>-&gt;</span>
+              People <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               {/* Find in-depth information about Next.js features and API. */}
@@ -28,7 +26,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            People <span>-&gt;</span>
+            Teams <span>-&gt;</span>
           </h2>
           {/* <p className={inter.className}>Explore the Next.js 13 playground.</p> */}
         </a>
